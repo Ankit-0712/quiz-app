@@ -88,6 +88,9 @@ app.listen(5000, () => {
 | `npm run build` | Build the app for production |
 
 ---
+## ScreenShots
+![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(4).png?raw=true)
+
 
 ## Deployment
 To deploy the project, build it first:
