@@ -61,19 +61,13 @@ A `proxy.js` file is used to fetch API data while avoiding CORS issues. The Reac
 
 ---
 
-## Useful Commands
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install dependencies |
-| `npm start` | Run the React app |
-| `node proxy.js` | Start the proxy server |
-| `npm run build` | Build the app for production |
 
----
 ## ScreenShots
 ![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(4).png?raw=true)
 ![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(5).png?raw=true)
 
+##Video demo 
+https://drive.google.com/file/d/12iJR_AjIolilJme1Mdkdcq8oDLxvgHxI/view?usp=sharing
 
 ## Deployment
 To deploy the project, build it first:
