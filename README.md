@@ -67,7 +67,7 @@ A `proxy.js` file is used to fetch API data while avoiding CORS issues. The Reac
 ![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(5).png?raw=true)
 
 ## Video demo 
-https://drive.google.com/file/d/12iJR_AjIolilJme1Mdkdcq8oDLxvgHxI/view?usp=sharing
+https://drive.google.com/file/d/1-I3EbLJxpNFUgWiExy9f3iEI3R33fd0x/view?usp=sharing
 
 ## Deployment
 To deploy the project, build it first:
