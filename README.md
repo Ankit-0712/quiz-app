@@ -52,25 +52,7 @@ This will start the development server and open the app in your default browser.
 ## Proxy Setup
 A `proxy.js` file is used to fetch API data while avoiding CORS issues. The React app makes requests to `http://localhost:5000`, which the proxy forwards to the actual API.
 
-### Example of `proxy.js`:
-```js
-const express = require('express');
-const { createProxyMiddleware } = require('http-proxy-middleware');
-const app = express();
 
-app.use(
-  '/api',
-  createProxyMiddleware({
-    target: 'https://actual-api.com', // Replace with the actual API URL
-    changeOrigin: true,
-    pathRewrite: { '^/api': '' },
-  })
-);
-
-app.listen(5000, () => {
-  console.log('Proxy server running on http://localhost:5000');
-});
-```
 
 ### How It Works:
 - The React app makes requests to `http://localhost:5000/api/...`
@@ -90,6 +72,7 @@ app.listen(5000, () => {
 ---
 ## ScreenShots
 ![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(4).png?raw=true)
+![image alt](https://github.com/Ankit-0712/quiz-app/blob/master/Screenshot%20(5).png?raw=true)
 
 
 ## Deployment
