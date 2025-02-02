@@ -1,4 +1,3 @@
-// src/components/QuizResult.jsx
 import React from 'react';
 
 const QuizResult = ({ score, totalQuestions, streak, onRestart }) => {
